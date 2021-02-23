@@ -1,0 +1,14 @@
+<t<bDocument with dot-matrix-toolsb>t>
+<idot-matrix-toolsi> is a simple tool I made to print rich text with dot-matrix printers, especially the Oki\_ML1120\_eco. I noticed that they tend to print bad-quality text in bitmap mode (or, at high resolution, need too much time) but formatting text in text-mode (by sending control characters etc.) is a hassle as well - unless you can use simple tags to get (for a dot-matrix printer) adequate text.
+
+Here are some examples of what it can do:
+- It can work with nice, formatted lists (as you see here)
+- It supports sub-\_and superscript as in: 300\_m<S3S>\_of\_CO<s2s>
+- <iFor <u<breallyb> important emphasisu>, formatting can be combinded.i>
+- The math symbols != and *mul are possible (the first one by printing =, backspace and /)
+- There is a special way to print forms, which is hard to show in the list, therefore:
+
+
+<fFirstname   f>	<fLastname    f>
+
+I hope this simple tools saves you a few hours writing it yourself and makes your dot-matrix printer more useful.
